@@ -12,7 +12,7 @@ export default function Player() {
     <section id="player">
       <h2>Welcome {name??'unknown entity'}</h2>
       <p>
-        <input ref={enteredName} type="text"  />
+        <input ref={enteredName} type="text"   />
         <button onClick={handleSubmit}>Set Name</button>
       </p>
     </section>
