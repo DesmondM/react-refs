@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function ResultModal({ref, result, targetTime}) {
+export default function ResultModal({ result, targetTime}) {
   return (
-    <dialog ref={ref} className="result-modal">
+    <dialog  className="result-modal" open={true}>
         <h2>You {result}</h2>
         <p>The target time was <strong>{targetTime} seconds, </strong></p>
         <p>You stopped the timer with <strong>X seconds left </strong></p>
